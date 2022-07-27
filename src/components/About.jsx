@@ -60,13 +60,13 @@ const About = () => {
 
 
 
-        <div className='flex justify-center lg:hidden'>
+        <div className='flex justify-center overflow-hidden lg:hidden'>
       <ul className='flex flex-row'>
         {links.map(({id, child, href, style, download}) => (
         // eslint-disable-next-line no-useless-concat
-        <li key={id} className={"flex flex-row h-10 w-6 px-4 hover:rounded-md duration-300" + " " + style}>
+        <li key={id} className={"flex flex-row px-4 hover:scale-150 duration-300" + " " + style}>
             <a href={href} 
-            className='flex flex-row items-center h-10 px-4 text-white' 
+            className='flex flex-row items-center px-4 text-white' 
             download={download} 
             target='_blank' 
             rel='noreferrer'>
