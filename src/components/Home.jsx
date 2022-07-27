@@ -1,5 +1,6 @@
 import React from 'react'
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
+import { Link } from 'react-scroll'
 
 const Home = () => {
   return (
@@ -13,12 +14,12 @@ const Home = () => {
             Currently working from North Carolina with a strong desire for Full-Stack development with experience in a variety of languages such as React JS, Node, Phython and more.
           </p>
           <div>
-            <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to to-blue-500'>
+            <Link to='portfolio' className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to to-blue-500'>
             Portfolio
               <span className='group-hover:rotate-90 duration-300'>
                 <MdOutlineKeyboardArrowRight size={20} className='ml-1'/>
               </span>
-            </button>
+            </Link>
           </div>
         </div>
       </div>
