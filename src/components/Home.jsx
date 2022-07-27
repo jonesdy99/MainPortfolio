@@ -11,10 +11,10 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className='text-gray-500 py-4 max-w-md'>
-            Currently working from North Carolina with a strong desire for Full-Stack development with experience in a variety of languages such as React JS, Node, Phython and more.
+            My name is Dylan Jones and I'm currently working from North Carolina with a strong desire for Full-Stack development with experience in a variety of languages such as React JS, Node, Phython and more.
           </p>
           <div>
-            <Link to='portfolio' className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to to-blue-500'>
+            <Link to='portfolio' smooth duration={400} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to to-blue-500 cursor-pointer'>
             Portfolio
               <span className='group-hover:rotate-90 duration-300'>
                 <MdOutlineKeyboardArrowRight size={20} className='ml-1'/>
