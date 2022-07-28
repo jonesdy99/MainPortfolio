@@ -8,7 +8,9 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: reactWeather
+      src: reactWeather,
+      demo: 'https://weather-app-base.netlify.app/',
+      code: 'https://github.com/jonesdy99/weather-app'
     },
     {
       id: 2,
