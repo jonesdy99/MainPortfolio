@@ -54,7 +54,7 @@ const About = () => {
           </p>
         </div>
         <p className='text-xl mt-20'>
-          Currently located in Goldsboro, NC which is about an hour away from Raleigh and 3 hours away from Charlotte. Recently graduated from East Carolina University and eager to get my career started in the tech field. Click on some of the various links regarding GitHub and LinkedIn to learn more about me.
+          Currently located in North Carolina and just recently graduated from East Carolina University and eager to get my career started in the tech field. Click on some of the various links regarding GitHub and LinkedIn to learn more about me.
         </p>
         <br />
 
