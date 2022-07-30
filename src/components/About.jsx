@@ -41,7 +41,6 @@ const About = () => {
         </>
       ),
       href: '/ResumePDF.pdf',
-      download: true,
     }
   ]
 
