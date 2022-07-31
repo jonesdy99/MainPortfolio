@@ -6,6 +6,7 @@ import reactImage from '../assets/react.png'
 import nextjs from '../assets/nextjs.png'
 import github from '../assets/github.png'
 import tailwind from '../assets/tailwind.png'
+import python from '../assets/python.png'
 
 
 const Experience = () => {
@@ -51,6 +52,12 @@ const Experience = () => {
       id: 7,
       src: github,
       title: 'GitHub',
+      style: 'shadow-gray-500'
+    },
+    {
+      id: 8,
+      src: python,
+      title: 'Python',
       style: 'shadow-gray-500'
     },
   ]
