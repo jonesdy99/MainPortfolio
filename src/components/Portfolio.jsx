@@ -1,6 +1,7 @@
 import React from 'react'
 import reactWeather from '../assets/portfolio/reactWeather.jpg'
 import ReadMe from '../assets/portfolio/ReadMe.jpg'
+import Remind from '../assets/portfolio/Remind.jpg'
 
 
 const Portfolio = () => {
@@ -17,6 +18,12 @@ const Portfolio = () => {
       src: ReadMe,
       demo: 'https://pc-part-picker.herokuapp.com/',
       code: 'https://github.com/jonesdy99/MainPortfolio'
+    },
+    {
+      id: 3,
+      src: Remind,
+      demo: 'https://remind-me-main.herokuapp.com/',
+      code: 'https://github.com/jonesdy99/remind-me-main'
     },
   ]
 
