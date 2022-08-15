@@ -17,7 +17,7 @@ const Portfolio = () => {
       id: 2,
       src: ReadMe,
       demo: 'https://pc-part-picker.herokuapp.com/',
-      code: 'https://github.com/jonesdy99/MainPortfolio'
+      code: 'https://github.com/jonesdy99/PC-Part-Picker'
     },
     {
       id: 3,
