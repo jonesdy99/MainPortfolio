@@ -2,6 +2,7 @@ import React from 'react'
 import reactWeather from '../assets/portfolio/reactWeather.jpg'
 import ReadMe from '../assets/portfolio/ReadMe.jpg'
 import Remind from '../assets/portfolio/Remind.jpg'
+import fightGame from '../assets/portfolio/fightGame.jpg'
 
 
 const Portfolio = () => {
@@ -25,6 +26,12 @@ const Portfolio = () => {
       demo: 'https://remind-me-main.herokuapp.com/',
       code: 'https://github.com/jonesdy99/remind-me-main'
     },
+    {
+      id: 4,
+      src: fightGame,
+      demo: 'https://jsfighting.netlify.app/',
+      code: 'https://github.com/jonesdy99/fighting-game'
+    }
   ]
 
   return (
