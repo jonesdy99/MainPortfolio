@@ -33,6 +33,12 @@ const Portfolio = () => {
       demo: 'https://jsfighting.netlify.app/',
       code: 'https://github.com/jonesdy99/fighting-game'
     },
+    {
+      id: 5,
+      src: Recipe,
+      demo: 'https://reactrecipess.herokuapp.com/',
+      code: 'https://github.com/jonesdy99/recipeapp'
+    }
   ]
 
   return (
